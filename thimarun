@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thimarun</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #f9f7f3, #fff4e6);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d8e2dc;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #555;
+        }
+        nav {
+            background: linear-gradient(90deg, #ffe5d9, #fcd5ce);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #fcbf49;
+            color: white;
+        }
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        h2 {
+            color: #555;
+            border-bottom: 2px solid #ffe5d9;
+            padding-bottom: 8px;
+        }
+        .button {
+            background-color: #fcbf49;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #d62828;
+        }
+        footer {
+            background-color: #d8e2dc;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                width: 80%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Thimarun</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#worksheets">Worksheets</a>
+    <a href="#activities">Activities</a>
+    <a href="#research">Islamic Research</a>
+    <a href="#books">Books</a>
+</nav>
+
+<main>
+
+<section id="home">
+    <h2>Welcome to Thimarun</h2>
+    <p>Welcome to Thimarun, an educational platform designed to provide developmentally friendly resources for children. Explore lessons, worksheets, activities, Islamic research, and our educational books.</p>
+</section>
+
+<section id="lessons">
+    <h2>Lessons</h2>
+    <p>Interactive lessons designed for children. Click the links below to view them on Canva:</p>
+    <ul>
+        <li><a href="#" target="_blank">Lesson 1</a></li>
+        <li><a href="#" target="_blank">Lesson 2</a></li>
+    </ul>
+</section>
+
+<section id="worksheets">
+    <h2>Worksheets</h2>
+    <p>Downloadable worksheets for children:</p>
+    <a href="#" class="button" download>Download Worksheet 1</a><br>
+    <a href="#" class="button" download>Download Worksheet 2</a>
+</section>
+
+<section id="activities">
+    <h2>Activities</h2>
+    <p>Developmentally appropriate activities for children:</p>
+    <ul>
+        <li>Activity 1: Description...</li>
+        <li>Activity 2: Description...</li>
+    </ul>
+</section>
+
+<section id="research">
+    <h2>Islamic Research</h2>
+    <p>Curated resources, articles, and notes on Islamic teachings for children:</p>
+    <ul>
+        <li>Research Topic 1</li>
+        <li>Research Topic 2</li>
+    </ul>
+</section>
+
+<section id="books">
+    <h2>Books</h2>
+    <p>Explore our educational books:</p>
+    <ul>
+        <li>Book 1: Summary / Excerpt...</li>
+        <li>Book 2: Summary / Excerpt...</li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    &copy; 2025 Thimarun. All rights reserved.
+</footer>
+
+</body>
+</html>
